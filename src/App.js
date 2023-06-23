@@ -6,6 +6,7 @@ import {
   BrowserRouter
 } from "react-router-dom"
 import Home from './pages/Home';
+import Signin from './pages/Signin';
 import MainLayout from './layouts/MainLayout';
 
 
@@ -27,6 +28,10 @@ function App() {
       <Route path="/" element={<MainLayout/>}  errorElement={<ErrorBoundary/>}>
         <Route index element={<Home/>} />
       </Route>
+      <Route path="/signin" element={<MainLayout/>}  errorElement={<ErrorBoundary/>}>
+        <Route index element={<Signin/>} />
+      </Route>
+
 
     </Routes>
    

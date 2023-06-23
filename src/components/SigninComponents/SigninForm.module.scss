@@ -1,0 +1,56 @@
+.container {
+
+
+    background-color: color;
+    height: 70%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+
+
+
+    section {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+       
+    }
+
+    
+
+
+    .inputContainer {
+
+
+      margin: 5px 0;
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-weight: bold;
+      }
+      input {
+
+        padding: 8px 0;
+      }
+    }
+
+
+
+    .submitButton {
+
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: white;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        background-color: #00bc77;
+        color: white;
+        padding: 10px 0;
+    }
+}
