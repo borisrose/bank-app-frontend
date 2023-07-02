@@ -1,7 +1,21 @@
+const URL = "http://localhost:3001/api/v1/user"
+
+export default {
 
 
-export const MongoService  = {
+    post: async(endpoint, data) => {
 
+        const response = await fetch(`${URL}/${endpoint}`, {
+
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
+        return await response.json()
+   
+    },
 
 
     login: async() => {

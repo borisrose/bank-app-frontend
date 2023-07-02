@@ -1,0 +1,53 @@
+.container {
+
+    display: flex;
+    background-color: #12002b;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+ 
+
+
+    .sectionWelcome {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+
+  
+        header {
+
+            font-size: 23px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+   
+
+            h1 {
+                text-align: center;
+            }
+        }
+
+
+        .editButton {
+            padding: 10px 20px;
+            background-color: var(--green-color);
+            font-weight: 600;
+            color: white;
+            margin: 20px;
+
+        }
+    }
+
+    .sectionData {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+}
