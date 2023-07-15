@@ -50,4 +50,67 @@
         margin: 50px 0;
     }
 
+
+    .editor {
+
+        height: 90px;
+        display: flex;
+     
+  
+
+        input {
+            margin: 5px 0;
+            padding: 8px 0;
+            text-indent: 10px;
+            outline: none;
+            border: gray ;
+        }
+
+
+        button {
+
+            border: rgb(162, 56, 162) solid 1px;
+            padding: 10px 30px;
+            color: rgb(162, 56, 162);
+            font-weight: bold;
+
+
+        }
+        .left {
+
+            display: flex;
+            width: 50%;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-right: 5px;
+
+          
+
+            button {
+
+                align-self: flex-end;
+          
+            }
+
+
+            
+         
+        }
+
+        .right {
+            display: flex;
+            width: 50%;
+        
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: 5px;
+
+
+            button {
+                align-self: flex-start;
+            }
+           
+        }
+    }
+
 }

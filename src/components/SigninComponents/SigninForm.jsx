@@ -29,7 +29,6 @@ const SigninForm = () => {
 
             dispatch(loginUser(data))
 
-            console.log('')
 
         } 
         

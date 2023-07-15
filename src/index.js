@@ -6,6 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import store from './app/store'
 import { Provider } from 'react-redux'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faChevronDown, faChevronUp, faRightFromBracket, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import { faUserCircle } from '@fortawesome/free-regular-svg-icons';
+
+library.add(faChevronUp, faChevronDown, faRightFromBracket, faUserCircle, faRightToBracket)
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
